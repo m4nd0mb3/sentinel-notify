@@ -30,20 +30,34 @@
 </p>
 
 
-# Sentinel Notify
 
-Sentinel Notify is a simple Rust script that periodically checks the availability of an application or system by pinging a specified URL. If the application or system is detected as offline, you can implement logic to send notifications.
+<h1 align="center">Sentinel Notify</h1>
+
+<p align="center">
+  <strong>Simple Rust script to periodically check the availability of an application or system.</strong>
+  <br>
+  Sentinel Notify is a simple Rust script that periodically checks the availability of an application or system by pinging a specified URL. If the application or system is detected as offline, you can implement logic to send notifications.
+</p>
+
+<p align="center">
+  <a href="#usage">Usage</a> •
+  <a href="#customization">Customization</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
 ## Usage
 
 1. Make sure you have Rust installed. You can download and install it from [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install).
 
-2. Create a new Rust project:
+2. Clone this repository:
 
 ```sh
-cargo new offline-checker
-cd SentinelNotify
+git clone https://github.com/m4nd0mb3/sentinel-notify.git
+cd sentinel-notify
 ```
+
+3. Replace the contents of `src/main.rs` with the code provided in the [main.rs](src/main.rs) file.
 
 4. Run the script:
 
